@@ -1,0 +1,65 @@
+h1{
+    font-size: 12px;
+    background-color: #fb6445;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+h2{
+    font-size: 12px;
+    background-color: #fb6445;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.mapa{
+    iframe{
+        width: 85vw;
+        height: 45vh;
+    }
+}
+.formulario{
+    margin-bottom: 10px;
+    
+    .name {
+        font-size: 8px;
+        width: 80vw;
+    }
+    .mail{
+        font-size: 8px;
+        width: 80vw;
+    }
+    textarea{
+        font-size: 8px;
+        width: 80vw;
+    }
+    h5{
+        font-size: 12px;
+    }
+    label{
+        font-size: 10px;
+    }
+    .selecinstrumnto{
+        select{
+            font-size: 8px;
+            width: 60vw;
+        }
+       
+        
+        input{
+            width: 10vw;
+            font-size: 8px;
+            
+        }
+       }
+       .form{
+        background-color: #9474fc;
+
+       }
+       .botonese{
+        padding-bottom: 10px;
+        input{
+            background-color: transparent;
+            border: #fb6445 1px solid;
+            width: 30vw;
+        }
+       }
+    }

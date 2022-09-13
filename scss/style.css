@@ -1,0 +1,523 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pagar, .videop, .musichelp {
+  background-color: #9474fc;
+}
+
+.flayer h5 {
+  font-size: 12px;
+  color: white;
+}
+.flayer button {
+  font-size: 8px;
+  color: white;
+}
+
+.musichelp {
+  text-align: center;
+  margin-top: 10px;
+}
+.musichelp h2 {
+  font-size: 12px;
+  color: white;
+}
+.musichelp p {
+  font-size: 8px;
+  color: white;
+}
+.musichelp img {
+  width: 80vw;
+  height: auto;
+  margin-top: 10px;
+}
+
+.videop {
+  margin-top: 10px;
+  text-align: center;
+}
+.videop h2 {
+  font-size: 12px;
+  color: white;
+  padding-top: 10px;
+}
+.videop p {
+  font-size: 8px;
+  color: white;
+  padding: 10px;
+}
+.videop button {
+  font-size: 8px;
+  color: white;
+  margin-bottom: 10px;
+}
+.videop iframe {
+  width: 80vw;
+  height: auto;
+}
+
+.pagar {
+  text-align: center;
+}
+.pagar h2 {
+  font-size: 12px;
+  color: white;
+  margin-top: 5px;
+}
+.pagar button {
+  font-size: 8px;
+  color: white;
+}
+.pagar img {
+  margin-top: 5px;
+  width: 30px;
+  height: auto;
+  padding: 0px 2px 0px 2px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+}
+.footer p {
+  font-size: 8px;
+  color: white;
+}
+.footer img {
+  width: 20px;
+}
+
+.tabla {
+  margin-top: 8px;
+  border: 1PX #184a74 solid;
+  background-color: #fb6445;
+}
+.tabla p {
+  font-size: 8px;
+  color: white;
+  background-color: #fb6445;
+}
+
+.fila {
+  border: 1PX #184a74 solid;
+}
+
+.tabla_fila {
+  margin: 0px;
+  padding: 0px;
+  font-size: 8px;
+  color: white;
+  background-color: #9474fc;
+}
+
+.plan {
+  margin-bottom: 8px;
+}
+
+.teens {
+  margin-bottom: 8px;
+}
+
+.videoi {
+  text-align: center;
+}
+.videoi iframe {
+  width: 80vw;
+  height: auto;
+}
+
+.inscr .tituloi {
+  font-size: 12px;
+  color: white;
+  background-color: #d4fc64;
+}
+.inscr img {
+  margin-top: 10px;
+  width: 80vw;
+  height: auto;
+}
+.inscr h2 {
+  margin-top: 10px;
+  font-size: 12px;
+  color: white;
+  background-color: #d4fc64;
+}
+.inscr p {
+  font-size: 8px;
+  color: white;
+  background-color: #d4fc64;
+}
+.inscr .inscripcionest {
+  background-color: #9086c0;
+}
+.inscr .inscripcionest button {
+  font-size: 8px;
+  color: white;
+  background-color: transparent;
+  margin-bottom: 8px;
+}
+.inscr .inscripcionest .inscribite_aqui {
+  font-size: 8px;
+  color: white;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.videost {
+  text-align: center;
+  margin-top: 10px;
+}
+.videost h2 {
+  font-size: 12px;
+  background-color: #fb6445;
+  border-radius: 15px;
+}
+.videost iframe {
+  width: 85vw;
+  height: auto;
+}
+
+h1 {
+  font-size: 12px;
+  background-color: #fb6445;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 12px;
+  background-color: #fb6445;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.mapa iframe {
+  width: 85vw;
+  height: 45vh;
+}
+
+.formulario {
+  margin-bottom: 10px;
+}
+.formulario .name {
+  font-size: 8px;
+  width: 80vw;
+}
+.formulario .mail {
+  font-size: 8px;
+  width: 80vw;
+}
+.formulario textarea {
+  font-size: 8px;
+  width: 80vw;
+}
+.formulario h5 {
+  font-size: 12px;
+}
+.formulario label {
+  font-size: 10px;
+}
+.formulario .selecinstrumnto select {
+  font-size: 8px;
+  width: 60vw;
+}
+.formulario .selecinstrumnto input {
+  width: 10vw;
+  font-size: 8px;
+}
+.formulario .form {
+  background-color: #9474fc;
+}
+.formulario .botonese {
+  padding-bottom: 10px;
+}
+.formulario .botonese input {
+  background-color: transparent;
+  border: #fb6445 1px solid;
+  width: 30vw;
+}
+
+@media (min-width: 768px) {
+  .flayer h5 {
+    font-size: 16px;
+  }
+  .flayer button {
+    font-size: 12px;
+  }
+  .videop h2 {
+    font-size: 16px;
+  }
+  .videop p {
+    font-size: 12px;
+  }
+  .videop iframe {
+    height: 60vh;
+  }
+  .videop button {
+    font-size: 12px;
+  }
+  .musichelp img {
+    width: 30vw;
+    height: auto;
+  }
+  .musichelp p {
+    font-size: 12px;
+  }
+  .musichelp h2 {
+    font-size: 16px;
+  }
+  .pagar h2 {
+    font-size: 16px;
+  }
+  .pagar button {
+    font-size: 12px;
+  }
+  .pagar img {
+    width: 45px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .footer img {
+    width: 35px;
+  }
+  .tabla p {
+    font-size: 12px;
+  }
+  .tabla_fila {
+    font-size: 12px;
+  }
+  .videoi iframe {
+    width: 90vw;
+    height: 60vh;
+  }
+  .inscr .tituloi {
+    font-size: 16px;
+  }
+  .inscr h2 {
+    font-size: 16px;
+  }
+  .inscr p {
+    font-size: 12px;
+  }
+  .inscr .inscripcionest button {
+    font-size: 12px;
+  }
+  .inscr .inscripcionest .inscribite_aqui {
+    font-size: 12px;
+  }
+  .videost h2 {
+    font-size: 16px;
+  }
+  .videost iframe {
+    width: 85vw;
+    height: 60vh;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .mapa iframe {
+    width: 85vw;
+    height: 60vh;
+  }
+  .formulario .name {
+    font-size: 12px;
+  }
+  .formulario .mail {
+    font-size: 12px;
+  }
+  .formulario textarea {
+    font-size: 12px;
+  }
+  .formulario h5 {
+    font-size: 16px;
+  }
+  .formulario label {
+    font-size: 12px;
+  }
+  .formulario .selecinstrumnto select {
+    font-size: 12px;
+  }
+  .formulario .selecinstrumnto input {
+    width: 10vw;
+    font-size: 12px;
+  }
+  .formulario .form {
+    background-color: #9474fc;
+  }
+  .formulario .botonese input {
+    background-color: transparent;
+    border: #fb6445 1px solid;
+    width: 30vw;
+  }
+}
+@media (min-width: 1024px) {
+  .flayer h5 {
+    font-size: 24px;
+  }
+  .flayer button {
+    font-size: 18px;
+  }
+  .videop {
+    margin-top: 40px;
+  }
+  .videop h2 {
+    font-size: 24px;
+  }
+  .videop p {
+    font-size: 18px;
+  }
+  .videop iframe {
+    height: 70vh;
+  }
+  .videop button {
+    font-size: 18px;
+  }
+  .musichelp {
+    margin-top: 40px;
+  }
+  .musichelp img {
+    width: 20vw;
+    height: auto;
+  }
+  .musichelp p {
+    font-size: 18px;
+  }
+  .musichelp h2 {
+    font-size: 24px;
+  }
+  .pagar {
+    margin-top: 40px;
+  }
+  .pagar h2 {
+    font-size: 24px;
+  }
+  .pagar button {
+    font-size: 18px;
+  }
+  .pagar img {
+    width: 45px;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .footer p {
+    font-size: 18px;
+  }
+  .footer img {
+    width: 35px;
+  }
+  .tabla {
+    margin-top: 40px;
+  }
+  .tabla p {
+    font-size: 22px;
+  }
+  .tabla_fila {
+    font-size: 22px;
+  }
+  .videoi iframe {
+    width: 90vw;
+    height: 80vh;
+  }
+  .inscr {
+    max-width: 4000px;
+  }
+  .inscr .tituloi {
+    font-size: 24px;
+  }
+  .inscr h2 {
+    font-size: 24px;
+  }
+  .inscr p {
+    font-size: 22px;
+  }
+  .inscr .inscripcionest button {
+    font-size: 18px;
+  }
+  .inscr .inscripcionest .inscribite_aqui {
+    font-size: 18px;
+  }
+  .inscr .inscripcionest .botoness {
+    justify-content: center;
+  }
+  .inscr .inscripcionest .botoness button {
+    padding: 0px 8px 10px 8px;
+    height: 10vh;
+    width: 10vw;
+    margin-top: 15px;
+  }
+  .inscr img {
+    width: 40vw;
+  }
+  .videost h2 {
+    font-size: 24px;
+  }
+  .videost iframe {
+    width: 45vw;
+    height: 45vh;
+  }
+  .videost .videost1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .videost .videost2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 10px 30px;
+  }
+  h2 {
+    font-size: 24px;
+    margin: 10px 30px;
+  }
+  .mapa iframe {
+    width: 85vw;
+    height: 60vh;
+  }
+  .formulario {
+    margin: 10px 30px;
+  }
+  .formulario .name {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  .formulario .mail {
+    font-size: 16px;
+  }
+  .formulario textarea {
+    font-size: 16px;
+  }
+  .formulario h5 {
+    font-size: 24px;
+  }
+  .formulario label {
+    font-size: 16px;
+  }
+  .formulario .selecinstrumnto select {
+    font-size: 16px;
+    width: 20vw;
+    height: 5vh;
+  }
+  .formulario .selecinstrumnto input {
+    width: 10vw;
+    font-size: 16px;
+  }
+  .formulario .form {
+    background-color: #9474fc;
+  }
+  .formulario .botonese input {
+    background-color: transparent;
+    border: #fb6445 1px solid;
+    width: 15vw;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+%estiloprincipal{
+   background-color:  #9474fc;
+  
+
+}
+
+//mixin
+
+@mixin estilotextotitulo{
+    
+        font-size: 12px;
+        color: white;
+        
+
+}
+@mixin estilotextotitulo2{
+    
+    font-size: 16px;
+    color: white;
+    
+
+}
+@mixin estiloparrafo{
+    
+    font-size: 8px;
+    color: white;
+    
+
+}
+@mixin estiloboton{
+    
+    font-size: 8px;
+    color: white;
+
+}
+

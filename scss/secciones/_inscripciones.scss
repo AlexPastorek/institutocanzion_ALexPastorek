@@ -1,0 +1,49 @@
+.videoi {
+    text-align: center;
+
+    iframe {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+.inscr {
+
+    .tituloi {
+        @include estilotextotitulo;
+        background-color: #d4fc64;
+    }
+
+    img {
+        margin-top: 10px;
+        width: 80vw;
+        height: auto;
+    }
+
+    h2 {
+        margin-top: 10px;
+        @include estilotextotitulo;
+        background-color: #d4fc64;
+    }
+
+    p {
+        @include estiloparrafo;
+        background-color: #d4fc64;
+    }
+
+    .inscripcionest {
+        background-color:#9086c0 ;
+        button {
+            @include estiloboton;
+            background-color: transparent;
+            margin-bottom: 8px;
+        }
+        .inscribite_aqui {
+           
+                @include estiloboton;
+                margin-bottom: 10px;
+                background-color:transparent;          
+        }
+
+    }
+}

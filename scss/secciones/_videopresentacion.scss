@@ -1,0 +1,23 @@
+
+.videop{
+    margin-top: 10px;
+    @extend %estiloprincipal;
+    text-align: center;
+h2{
+    @include estilotextotitulo;
+    padding-top: 10px;
+}
+p{
+    @include estiloparrafo;
+    padding: 10px
+}
+button{
+    @include estiloboton;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 80vw;
+    height: auto;
+}
+    
+}

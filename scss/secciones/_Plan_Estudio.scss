@@ -1,0 +1,28 @@
+.tabla{
+    margin-top: 8px;
+    border: 1PX #184a74 solid ;
+    background-color: #fb6445;
+    p{
+        @include estiloparrafo;
+        background-color: #fb6445;
+        
+
+    }
+}
+.fila{
+    border: 1PX #184a74 solid ;
+}
+.tabla_fila{
+    margin: 0px;
+    padding: 0px;
+    @include estiloparrafo;
+    background-color:   #9474fc;
+    
+    
+}
+.plan{
+    margin-bottom: 8px;
+}
+.teens{
+    margin-bottom: 8px;
+}

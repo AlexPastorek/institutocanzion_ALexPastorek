@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import'./variables/extend.scss';
+@import'./secciones/flayer';
+@import'./secciones/musichelp';
+@import'./secciones/videopresentacion';
+@import'./secciones/pagar';
+@import'./secciones/footer';
+@import'./secciones/Plan_Estudio';
+@import'./secciones/inscripciones';
+@import'./secciones/tutoriales';
+@import'./secciones/contacto';
+
+
+@media (min-width:768px) {
+    .flayer {
+        h5 {
+            font-size: 16px;
+        }
+
+        button {
+            font-size: 12px;
+        }
+    }
+
+    .videop {
+        h2 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        iframe {
+            height: 60vh;
+        }
+
+        button {
+            font-size: 12px;
+        }
+    }
+
+    .musichelp {
+        img {
+            width: 30vw;
+            height: auto;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+    }
+
+    .pagar {
+        h2 {
+            font-size: 16px;
+        }
+
+        button {
+            font-size: 12px;
+        }
+
+        img {
+            width: 45px;
+        }
+    }
+
+    .footer {
+        p {
+            font-size: 12px;
+        }
+
+        img {
+            width: 35px;
+        }
+    }
+
+    //plan estudio
+    .tabla p {
+        font-size: 12px;
+    }
+
+    .tabla_fila {
+        font-size: 12px;
+    }
+
+    //inscripciones
+
+    .videoi {
+        iframe {
+            width: 90vw;
+            height: 60vh;
+        }
+    }
+
+    .inscr {
+
+        .tituloi {
+            font-size: 16px;
+        }
+
+        h2 {
+
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .inscripcionest {
+
+            button {
+                font-size: 12px
+            }
+
+            .inscribite_aqui {
+
+                font-size: 12px;
+            }
+
+        }
+    }
+    //tutoriales
+
+    .videost{
+       
+      
+    h2{
+        font-size: 16px;
+       
+    }
+    iframe{
+        width: 85vw;
+        height: 60vh;
+    }
+    }
+    //contacto
+
+    h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 16px
+    }
+    .mapa{
+        iframe{
+            width: 85vw;
+            height: 60vh;
+        }
+    }
+    .formulario{
+        
+        .name {
+            font-size: 12px;
+            
+        }
+        .mail{
+            font-size: 12px;
+            
+        }
+        textarea{
+            font-size: 12px;
+            
+        }
+        h5{
+            font-size: 16px;
+        }
+        label{
+            font-size: 12px;
+        }
+        .selecinstrumnto{
+            select{
+                font-size: 12px;
+               
+            }
+           
+            
+            input{
+                width: 10vw;
+                font-size: 12px;
+                
+            }
+           }
+           .form{
+            background-color: #9474fc;
+    
+           }
+           .botonese{
+           
+            input{
+                background-color: transparent;
+                border: #fb6445 1px solid;
+                width: 30vw;
+            }
+           }
+        }
+
+}
+
+
+//pantalla escritorio
+
+@media (min-width:1024px) {
+    .flayer {
+        h5 {
+            font-size: 24px;
+
+        }
+
+        button {
+            font-size: 18px;
+        }
+    }
+
+    .videop {
+        margin-top: 40px;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        iframe {
+            height: 70vh;
+        }
+
+        button {
+            font-size: 18px;
+        }
+    }
+
+    .musichelp {
+        margin-top: 40px;
+
+        img {
+            width: 20vw;
+            height: auto;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+    .pagar {
+        margin-top: 40px;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        button {
+            font-size: 18px;
+        }
+
+        img {
+            width: 45px;
+        }
+    }
+
+    .footer {
+        margin-top: 40px;
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            width: 35px;
+        }
+    }
+
+    //plan estudio
+    .tabla {
+        margin-top: 40px;
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .tabla_fila {
+        font-size: 22px;
+    }
+
+    //inscripciones
+
+    .videoi {
+        iframe {
+            width: 90vw;
+            height: 80vh;
+        }
+    }
+
+    .inscr {
+        max-width: 4000px;
+
+        .tituloi {
+            font-size: 24px;
+        }
+
+        h2 {
+
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        .inscripcionest {
+
+            button {
+                font-size: 18px
+            }
+
+            .inscribite_aqui {
+
+                font-size: 18px;
+            }
+            .botoness{
+                justify-content: center;
+                button{
+                    padding: 0px 8px 10px 8px;
+                    height: 10vh;
+                    width: 10vw;
+                    margin-top:15px ;
+                    
+                }
+            }
+
+        }
+
+        img {
+            width: 40vw;
+        }
+    }
+    //tutoriales
+
+    .videost{
+       
+      
+        h2{
+            font-size: 24px;
+           
+        }
+        iframe{
+            width: 45vw;
+            height: 45vh;
+        }
+        .videost1{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        .videost2{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        }
+    //contacto
+
+    h1{
+        font-size: 24px;
+        margin: 10px 30px;
+    }
+    h2{
+        font-size: 24px;
+        margin: 10px 30px;
+    }
+    .mapa{
+        iframe{
+            width: 85vw;
+            height: 60vh;
+        }
+    }
+    .formulario{
+        margin: 10px 30px;
+        .name {
+            font-size: 16px;
+            margin-top: 15px;
+            
+        }
+        .mail{
+            font-size: 16px;
+            
+        }
+        textarea{
+            font-size: 16px;
+            
+        }
+        h5{
+            font-size: 24px;
+        }
+        label{
+            font-size: 16px;
+        }
+        .selecinstrumnto{
+            select{
+                font-size: 16px;
+                width: 20vw;
+                height: 5vh;
+               
+            }
+           
+            
+            input{
+                width: 10vw;
+                font-size: 16px;
+                
+            }
+           }
+           .form{
+            background-color: #9474fc;
+    
+           }
+           .botonese{
+           
+            input{
+                background-color: transparent;
+                border: #fb6445 1px solid;
+                width: 15vw;
+            }
+           }
+        }
+
+
+}

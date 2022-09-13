@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- keywords -->
+    <meta name="keywords"
+        content="escuela, escuela de musica, canto, guitarra, clase de musica, tutorial, plataforma canzion,contacto, direccion, e-mail">
+    <!-- description -->
+    <meta name="description" content="Contactate con nosotros para recibir toda la informacion de nuestros cursos">
+    <!-- ... -->
+    <title>Instituto Canzion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg " style="background-color:  #fb6445">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../imagenes/Logo-canzion_-1-300x100.png"
+                        width="150px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./plan_Estudio.html">Plan Estudio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./inscripciones.html">inscripciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tutoriales.html">Tutoriales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--fin  header -->
+    <main>
+        <!-- flayer -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../imagenes/Portadafacebook.jpg" class="d-block w-100" alt="...">
+
+                </div>
+            </div>
+        </div>
+        <!-- fin flayer -->
+        <h1 class="text-center">Contacto</h1>
+        <div class="mapa text-center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1606.9565717987823!2d-64.19798084830607!3d-31.41351119870254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329880440443e7%3A0x26a9183ac3ec1fa2!2s27%20de%20Abril%20941%2C%20X5000AES%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1658784478893!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2 class="text-center">Formulario de Contacto</h2>
+        <!-- formulario -->
+        <section class="formulario text-center">
+            
+            <form class="form" action="#" method="get">
+                <input class="name" type="text" placeholder="Nombre y Apellido" name="nombre">
+                <br><br>
+                <input class="mail" type="Email" placeholder="E-Mail" name="eMail">
+                <br><br>
+                <textarea class="texto" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <br>
+                <h5>Modalidad a consultar</h5>
+                <div class="selecModalidad">
+                    <label for="modalidad"> + 16 Años</label>
+                    <input type="radio" name="modalidad" value="cursoMinisterial">
+                    <label for="modalidad">Ente 11 años y 15 años</label>
+                    <input type="radio" name="modalidad" value="Teens">
+                </div>
+                <br>
+                <div class="selecinstrumnto">
+                    <h5>Instrumento</h5>
+                    <select name="eleccion" id="">
+                        <option value="">Elegi tu instrumento</option>
+                        <option value="piano">Piano</option>
+                        <option value="guitarra">Gitarra</option>
+                        <option value="bajo">Bajo</option>
+                        <option value="Bateria">Bateria</option>
+                        <option value="canto">Canto</option>
+                    </select>
+                </div>
+                <br>
+                <!-- aceta condiciones -->
+                <div class="condiciones">
+                    <label for="">Acepta los terminos y condiciones</label>
+                    <input type="checkbox" name="Acepta" value="si">
+                </div>
+                <br>
+                <div class="botonese">
+                    <!-- Envia -->
+                    <input type="submit" value="Enviar">
+                    <!-- borra datos -->
+                    <input type="reset" value="Borrar">
+                </div>
+            </form>
+
+        </section>
+
+        <!-- fin formuario -->
+
+
+
+
+        <footer class="footer">
+            <p class="text-center">E- Mail: cordoba@institutocanzion.com // Dirección: 27 de abril 935
+                (córdoba-Argentina) // Teléfono: 0351-158002956</p>
+            <div class="redessociales">
+                <img src="../imagenes/logo face.png" alt="">
+                <img src="../imagenes/Logo instagram.png" alt="">
+                <img src="../imagenes/youtube-logo-5-2.png" alt="">
+            </div>
+        </footer>
+    </main>
+    <!-- /////////////////////////////////////// -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

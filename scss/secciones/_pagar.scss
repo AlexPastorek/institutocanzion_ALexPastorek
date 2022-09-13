@@ -1,0 +1,17 @@
+.pagar{
+    @extend %estiloprincipal;
+    text-align: center;
+    h2{
+        @include estilotextotitulo;
+        margin-top: 5px
+    }
+    button{
+        @include estiloboton;
+    }
+    img{
+        margin-top: 5px;
+        width: 30px;
+        height: auto;
+        padding: 0px 2px 0px 2px;
+    }
+}
